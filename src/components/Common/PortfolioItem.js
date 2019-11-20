@@ -5,17 +5,17 @@ class PortfolioItem extends Component {
   render() {
     return (
       <div className="col-md-4 col-sm-6 portfolio-item">
-        <Link className="portfolio-link" data-toggle="modal" to="#portfolioModal1">
+        <Link className="portfolio-link" data-toggle="modal" to={this.props.link}>
           <div className="portfolio-hover">
             <div className="portfolio-hover-content">
               <i className="fas fa-plus fa-3x"></i>
             </div>
           </div>
-          <img className="img-fluid" src={this.props.image} alt="" />
+          <img className="img-fluid" src={this.props.image} alt={this.props.title} />
         </Link>
         <div className="portfolio-caption">
-          <h4>{this.props.title}</h4>
-          <p className="text-muted">{this.props.subtitle}</p>
+          <h4><Link to={this.props.link}>{this.props.title}</Link></h4>
+          <p className="text-muted">{this.props.subtitle}</p>          
         </div>
       </div>
     )

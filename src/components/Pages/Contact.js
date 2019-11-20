@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import ContactForm from "../Common/ContactForm";
+import { withFormik } from "formik";
+import emailjs from "emailjs-com";
 
 class Contact extends Component {
   constructor(props) {
@@ -21,8 +23,16 @@ class Contact extends Component {
   }
   onSubmitEvent = (event) => {
     event.preventDefault()
-    console.log({...this.state})
+    const templateParams = {...this.state}
+
+    emailjs.send('gmail', 'template_2ONpqFsc', templateParams, 'user_DDjkEndKnf48LeUH32iGh')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
   }
+
   render() {
     return (
       <section className="page-section" id="contact">
@@ -44,4 +54,24 @@ class Contact extends Component {
   }
 }
 
-export default Contact
+
+export default withFormik({
+  mapPropsToValues: () => ({
+    name: '',
+    email: '',
+    phone: '',
+    message: ''
+  }),
+  validate: values => {
+    const errors = {};
+    Object.keys(values).map(v => {
+      if (!values[v]) {
+        errors[v] = 'Required'
+      }
+    })
+    return errors;
+  },
+  handleSubmit: (values, {setSubmitting}) => {
+    alert('You have submitted the form');
+  }
+})(Contact);

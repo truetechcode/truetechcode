@@ -1,30 +1,40 @@
 import React from 'react'
+import Field from "./Field";
+
+const fields = {
+  sections: [
+    [
+      {elementName: 'input', type: "text", id: 'name', name: 'user_name', placeholder: "Your Name *"},
+      {elementName: 'input', type: "email", id: 'email', name: 'user_email', placeholder: "Your Email *"},
+      {elementName: 'input', type: "text", id: 'phone', name: 'user_phone', placeholder: "Your Number *"}
+    ],
+    [
+      {elementName: 'textarea', type: "text", name: 'message', placeholder: "Your Message *"}
+    ]
+  ]
+}
 
 function ContactForm(props) {
-const {name, email, phone, message, onChangeEvent, onSubmitEvent} = props
+const {onChangeEvent, onSubmitEvent} = props
   return (
-    <form id="contactForm" name="sentMessage" onSubmit={onSubmitEvent} noValidate="noValidate">
+    <form className="contact-form" id="contactForm" name="sentMessage" onSubmit={onSubmitEvent} noValidate={false}>
     <div className="row">
-      <div className="col-md-6">
-        <div className="form-group">
-          <input className="form-control" id="name" type="text" value={name} onChange={onChangeEvent} placeholder="Your Name *" required="required" data-validation-required-message="Please enter your name."/>
-          <p className="help-block text-danger"></p>
-        </div>
-        <div className="form-group">
-          <input className="form-control" id="email" type="email" value={email} onChange={onChangeEvent} placeholder="Your Email *" required="required" data-validation-required-message="Please enter your email address."/>
-          <p className="help-block text-danger"></p>
-        </div>
-        <div className="form-group">
-          <input className="form-control" id="phone" type="tel" value={phone} onChange={onChangeEvent} placeholder="Your Phone *" required="required" data-validation-required-message="Please enter your phone number."/>
-          <p className="help-block text-danger"></p>
-        </div>
-      </div>
-      <div className="col-md-6">
-        <div className="form-group">
-          <textarea className="form-control" id="message" value={message} onChange={onChangeEvent} placeholder="Your Message *" required="required" data-validation-required-message="Please enter a message."></textarea>
-          <p className="help-block text-danger"></p>
-        </div>
-      </div>
+
+      {fields.sections.map((section, sectionIndex) => {
+        return (
+          <div className="col-md-6" key={sectionIndex}>
+            <input type="hidden" name="contact_number" />
+            {section.map((field, i) => {
+              return <Field 
+                        {...field} 
+                        key={i}
+                        value={props[field.name]}
+                        onChange={onChangeEvent}
+                        />
+            })}
+          </div>    
+        )
+      })}
       <div className="clearfix"></div>
       <div className="col-lg-12 text-center">
         <div id="success"></div>

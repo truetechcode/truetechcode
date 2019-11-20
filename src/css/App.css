@@ -20,3 +20,14 @@
 .App-link {
   color: #09d3ac;
 }
+
+nav#mainNav.navbar {
+  background: #00000070;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+footer.footer {
+  background-color: #000000cf;
+  padding: 23px 0;
+}

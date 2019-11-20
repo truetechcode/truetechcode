@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function TeamMember(props) {
   return (
-    <div className="col-sm-4">
+    <div className="col-sm-12 col-md-12 col-lg-4">
     <div className="team-member">
       <img className="mx-auto rounded-circle" src={props.image} alt="" />
       <h4>{props.name}</h4>
@@ -12,11 +12,6 @@ function TeamMember(props) {
         <li className="list-inline-item">
           <Link to={props.twitter}>
             <i className="fab fa-twitter"></i>
-          </Link>
-        </li>
-        <li className="list-inline-item">
-          <Link to={props.facebook}>
-            <i className="fab fa-facebook-f"></i>
           </Link>
         </li>
         <li className="list-inline-item">
