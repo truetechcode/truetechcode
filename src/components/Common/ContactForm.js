@@ -4,17 +4,27 @@ import Field from "./Field";
 const fields = {
   sections: [
     [
-      {elementName: 'input', type: "text", id: 'name', name: 'user_name', placeholder: "Your Name *"},
-      {elementName: 'input', type: "email", id: 'email', name: 'user_email', placeholder: "Your Email *"},
-      {elementName: 'input', type: "text", id: 'phone', name: 'user_phone', placeholder: "Your Number *"}
+      {elementName: 'input', type: "text", id: 'name', name: 'user_name', placeholder: "Your Name Please *", required: 'required'},
+      {elementName: 'input', type: "email", id: 'email', name: 'user_email', placeholder: "Your Email Please *", required: 'required'},
+      {elementName: 'input', type: "text", id: 'phone', name: 'user_phone', placeholder: "Your Number * Optional", required: ''}
     ],
     [
-      {elementName: 'textarea', type: "text", name: 'message', placeholder: "Your Message *"}
+      {elementName: 'textarea', type: "text", id: 'message', name: 'message', placeholder: "Your Message Please *",  required: 'required'}
     ]
   ]
 }
 
 function ContactForm(props) {
+
+    const success = 'Thanks for stopping by, I will be reaching out to you ASAP!'
+    const fail = 'Sorry something went wrong, it\'s not you, you can try submiting again'
+    let alert;
+    if (props.sent === 'success') {
+      alert = <div id="success" className="alert alert-success">{success}</div>
+    } else if (props.sent === 'fail') {
+      alert = <div id="success" className="alert alert-success">{fail}</div>
+    } 
+
 const {onChangeEvent, onSubmitEvent} = props
   return (
     <form className="contact-form" id="contactForm" name="sentMessage" onSubmit={onSubmitEvent} noValidate={false}>
@@ -28,7 +38,7 @@ const {onChangeEvent, onSubmitEvent} = props
               return <Field 
                         {...field} 
                         key={i}
-                        value={props[field.name]}
+                        value={props[field.id]}
                         onChange={onChangeEvent}
                         />
             })}
@@ -37,7 +47,7 @@ const {onChangeEvent, onSubmitEvent} = props
       })}
       <div className="clearfix"></div>
       <div className="col-lg-12 text-center">
-        <div id="success"></div>
+        {alert}
         <button id="sendMessageButton" className="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>
       </div>
     </div>

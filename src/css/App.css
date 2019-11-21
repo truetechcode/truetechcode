@@ -31,3 +31,11 @@ footer.footer {
   background-color: #000000cf;
   padding: 23px 0;
 }
+
+@media screen and (max-width: 992px) {
+  .about-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}

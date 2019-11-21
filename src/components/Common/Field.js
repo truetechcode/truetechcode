@@ -11,8 +11,7 @@ function Field(props) {
             value={props.value} 
             onChange={props.onChange} 
             placeholder={props.placeholder}
-            required="required" 
-            data-validation-required-message={`Please enter your ${props.name}.`}
+            required = {props.required}
          />
         :
           <textarea 
@@ -21,8 +20,7 @@ function Field(props) {
             value={props.value} 
             onChange={props.onChange} 
             placeholder={props.placeholder}
-            required="required" 
-            data-validation-required-message="Please enter a message."
+            required = {props.required}
           />  
       }
     <p className="help-block text-danger"></p>

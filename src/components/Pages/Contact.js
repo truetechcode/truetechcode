@@ -11,26 +11,59 @@ class Contact extends Component {
        name: '',
        email: '',
        phone: '',
-       message: ''
+       message: '',
+       sent: ''
     }
     this.onChangeEvent = this.onChangeEvent.bind(this)
   }
-  
+  clearState = (sent) => {
+    if (sent) {
+      this.setState({
+        name: '', 
+        email: '',
+        phone: '',
+        message: '',
+      })
+
+      setTimeout(() => {
+        this.setState({
+          sent: ''
+        })
+      }, 2000);
+    } else {
+      this.setState({
+        sent: 'fail'
+      })
+
+      setTimeout(() => {
+        this.setState({
+          sent: ''
+        })
+      }, 2000);
+    }
+  }
   onChangeEvent = (event) => {
     this.setState({
       [event.target.id]: event.target.value
-    })
+    })  
   }
   onSubmitEvent = (event) => {
     event.preventDefault()
     const templateParams = {...this.state}
-
-    emailjs.send('gmail', 'template_2ONpqFsc', templateParams, 'user_DDjkEndKnf48LeUH32iGh')
+    const {name, email, message} = this.state
+    if (name !== '' && email !== '' && message !== '') {
+      emailjs.send('gmail', 'template_2ONpqFsc', templateParams, 'user_DDjkEndKnf48LeUH32iGh')
       .then((result) => {
-          console.log(result.text);
+        this.setState({
+          sent: 'success'
+        })
+          this.clearState(true)
       }, (error) => {
-          console.log(error.text);
+          this.clearState(false)
       });
+    } else {
+
+    }
   }
 
   render() {
@@ -39,8 +72,8 @@ class Contact extends Component {
       <div className="container">
         <div className="row">
           <div className="col-lg-12 text-center">
-            <h2 className="section-heading text-uppercase">Contact Us</h2>
-            <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            <h2 className="section-heading text-uppercase">Contact Me</h2>
+            <h3 className="section-subheading text-muted">Please feel free to keep in touch.</h3>
           </div>
         </div>
         <div className="row">
@@ -55,23 +88,4 @@ class Contact extends Component {
 }
 
 
-export default withFormik({
-  mapPropsToValues: () => ({
-    name: '',
-    email: '',
-    phone: '',
-    message: ''
-  }),
-  validate: values => {
-    const errors = {};
-    Object.keys(values).map(v => {
-      if (!values[v]) {
-        errors[v] = 'Required'
-      }
-    })
-    return errors;
-  },
-  handleSubmit: (values, {setSubmitting}) => {
-    alert('You have submitted the form');
-  }
-})(Contact);
+export default Contact;
