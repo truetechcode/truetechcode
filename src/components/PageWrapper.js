@@ -28,9 +28,6 @@ class PageWrapper extends Component {
             </button>            
             <div style={{display: this.state.collapse ? '' : 'none'}} className="navbar-collapse" id="navbarResponsive">
               <ul className="navbar-nav text-uppercase ml-auto">
-              <li className="nav-item">
-                  <Link className="nav-link js-scroll-trigger" to="//drive.google.com/open?id=10PFSkYZHtZfrATwBOXBQzZc52E9Ud-g-">My Resume</Link>
-              </li>
                 <li className="nav-item">
                   <Link className="nav-link js-scroll-trigger" to="/about">Me</Link>
                 </li>
@@ -40,6 +37,9 @@ class PageWrapper extends Component {
                 <li className="nav-item">
                   <Link className="nav-link js-scroll-trigger" to="/contact">Contact</Link>
                 </li>
+                <li className="nav-item">
+                  <Link className="nav-link btn btn-danger btn-sm js-scroll-trigger" to="//drive.google.com/open?id=10PFSkYZHtZfrATwBOXBQzZc52E9Ud-g-">My Resume</Link>
+              </li>
               </ul>
             </div>
           </div>
