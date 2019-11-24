@@ -32,10 +32,32 @@ footer.footer {
   padding: 23px 0;
 }
 
+.about-desc .about-desc-title {
+  font-weight: bold;
+}
+
+.ml-two {
+  margin-left: 5px;
+}
+
 @media screen and (max-width: 992px) {
   .about-desc {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
   }
+
+  .about-desc .about-desc-title {
+    width: 100%;
+    display: block;
+  }
+
+  .about-desc .btn-group {
+    width: 100%;
+    margin-top: 2px;
+  }
+  .ml-two {
+    margin-left: 0px;
+  }
+
 }
