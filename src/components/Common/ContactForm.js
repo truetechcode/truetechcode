@@ -18,18 +18,29 @@ function ContactForm(props) {
 
     const success = 'Thanks for stopping by, I will be reaching out to you ASAP!'
     const fail = 'Sorry something went wrong, it\'s not you, you can try submiting again'
-    let alert;
+    let alert,
+        disabled = false,
+        buttonValue = 'Send Message';
+    if (props.sent === 'sending') {
+      buttonValue = 'Sending...'
+      disabled = true
+    }     
+    
     if (props.sent === 'success') {
-      alert = <div id="success" className="alert alert-success">{success}</div>
+      alert = <div id="success" className="alert alert-primary text-center font-weight-bold">{success}</div>
+      buttonValue = 'Message Sent'
+      disabled = false
     } else if (props.sent === 'fail') {
-      alert = <div id="success" className="alert alert-success">{fail}</div>
+      alert = <div id="success" className="alert alert-secondary text-center font-weight-bold">{fail}</div>
+      buttonValue = 'Resend Message'
+      disabled = false
     } 
 
 const {onChangeEvent, onSubmitEvent} = props
   return (
     <form className="contact-form" id="contactForm" name="sentMessage" onSubmit={onSubmitEvent} noValidate={false}>
+    {alert}
     <div className="row">
-
       {fields.sections.map((section, sectionIndex) => {
         return (
           <div className="col-md-6" key={sectionIndex}>
@@ -47,8 +58,7 @@ const {onChangeEvent, onSubmitEvent} = props
       })}
       <div className="clearfix"></div>
       <div className="col-lg-12 text-center">
-        {alert}
-        <button id="sendMessageButton" className="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>
+    <button id="sendMessageButton" className="btn btn-primary btn-xl text-uppercase" disabled={disabled} type="submit">{buttonValue}</button>
       </div>
     </div>
   </form>

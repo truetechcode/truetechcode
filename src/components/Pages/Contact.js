@@ -39,7 +39,7 @@ class Contact extends Component {
         this.setState({
           sent: ''
         })
-      }, 2000);
+      }, 5000);
     }
   }
   onChangeEvent = (event) => {
@@ -52,6 +52,10 @@ class Contact extends Component {
     const templateParams = {...this.state}
     const {name, email, message} = this.state
     if (name !== '' && email !== '' && message !== '') {
+      this.setState({
+        sent: 'sending'
+      })
+
       emailjs.send('gmail', 'template_2ONpqFsc', templateParams, 'user_DDjkEndKnf48LeUH32iGh')
       .then((result) => {
         this.setState({
