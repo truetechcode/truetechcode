@@ -10,12 +10,12 @@ function TeamMember(props) {
       <p className="text-muted">{props.title}</p>
       <ul className="list-inline social-buttons">
         <li className="list-inline-item">
-          <Link to={props.twitter}>
+          <Link target="_blank" to={props.twitter}>
             <i className="fab fa-twitter"></i>
           </Link>
         </li>
         <li className="list-inline-item">
-          <Link to={props.linkedin}>
+          <Link target="_blank" to={props.linkedin}>
             <i className="fab fa-linkedin-in"></i>
           </Link>
         </li>

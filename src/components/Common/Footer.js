@@ -9,22 +9,22 @@ function Footer() {
         <div className="col-md-12">
           <ul className="list-inline social-buttons">
           <li className="list-inline-item">
-              <Link to="//www.github.com/truetechcode/">
+              <Link target="_blank" to="//www.github.com/truetechcode/">
                 <i className="fab fa-github"></i>
               </Link>
             </li>
             <li className="list-inline-item">
-              <Link to="//www.linkedin.com/in/terver-aosu/">
+              <Link target="_blank" to="//www.linkedin.com/in/terver-aosu/">
                 <i className="fab fa-linkedin-in"></i>
               </Link>
             </li>
             <li className="list-inline-item">
-              <Link to="//www.twitter.com/truetech_code">
+              <Link target="_blank" to="//www.twitter.com/truetech_code">
                 <i className="fab fa-twitter"></i>
               </Link>
             </li>
             <li className="list-inline-item">
-              <Link to="//www.dev.to/truetechcode">
+              <Link target="_blank" to="//www.dev.to/truetechcode">
                 <i className="fab fa-dev"></i>
               </Link>
             </li>
