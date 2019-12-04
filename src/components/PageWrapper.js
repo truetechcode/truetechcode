@@ -21,7 +21,7 @@ class PageWrapper extends Component {
       <div>
         <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
           <div className="container">
-            <Link className="navbar-brand" to="/">truetech</Link>
+            <Link className="navbar-brand" to="/">truetechcode</Link>
             <button onClick={this.onClickHandler} className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="/navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
               Menu
         <i className="fas fa-bars"></i>
@@ -37,8 +37,8 @@ class PageWrapper extends Component {
                 <li className="nav-item">
                   <Link className="nav-link js-scroll-trigger" to="/contact">Contact</Link>
                 </li>
-                <li className="nav-item">
-                  <Link className="nav-link btn btn-danger btn-sm js-scroll-trigger" target="_blank" to="//drive.google.com/open?id=10PFSkYZHtZfrATwBOXBQzZc52E9Ud-g-">My Resume</Link>
+                <li className="nav-item" style={{}}>
+                  <Link className="nav-link js-scroll-trigger" style={{}} target="_blank" to="//drive.google.com/open?id=1lHan1rh7GycL13nRAP5pcJEeynu0tLtx">My Resume</Link>
               </li>
               </ul>
             </div>
