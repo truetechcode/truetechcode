@@ -33,7 +33,7 @@ function Footer() {
         <div className="col-md-12 mt-4">
           <ul className="list-inline footer-links">
           <li className="list-inline-item">
-            <Link className="btn btn-secondary" target="_blank" to="//drive.google.com/open?id=1lHan1rh7GycL13nRAP5pcJEeynu0tLtx">
+            <Link className="btn btn-secondary" target="_blank" to="//drive.google.com/open?id=1vQDuGsZLDlts8DgIwGw4isKpItzydmFg">
               My Resume
             </Link>
           </li>

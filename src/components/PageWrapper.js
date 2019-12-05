@@ -38,7 +38,7 @@ class PageWrapper extends Component {
                   <Link className="nav-link js-scroll-trigger" to="/contact">Contact</Link>
                 </li>
                 <li className="nav-item" style={{}}>
-                  <Link className="nav-link js-scroll-trigger" style={{}} target="_blank" to="//drive.google.com/open?id=1lHan1rh7GycL13nRAP5pcJEeynu0tLtx">My Resume</Link>
+                  <Link className="nav-link js-scroll-trigger" style={{}} target="_blank" to="//drive.google.com/open?id=1vQDuGsZLDlts8DgIwGw4isKpItzydmFg">My Resume</Link>
               </li>
               </ul>
             </div>
