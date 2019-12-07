@@ -28,12 +28,17 @@ function Footer() {
                 <i className="fab fa-dev"></i>
               </Link>
             </li>
+            <li className="list-inline-item">
+              <Link target="_blank" to="//stackoverflow.com/story/truetechcode">
+                <i class="fab fa-stack-overflow" aria-hidden={true}></i>
+              </Link>
+            </li>            
           </ul>
         </div>
         <div className="col-md-12 mt-4">
           <ul className="list-inline footer-links">
           <li className="list-inline-item">
-            <Link className="btn btn-secondary" target="_blank" to="//drive.google.com/open?id=1vQDuGsZLDlts8DgIwGw4isKpItzydmFg">
+            <Link className="btn btn-secondary" target="_blank" to="//drive.google.com/open?id=12GM62vllNJmRTMIL7ozhbnxq9fK7d2Ab">
               My Resume
             </Link>
           </li>
