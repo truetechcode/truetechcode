@@ -29,7 +29,7 @@ class Contact extends Component {
         this.setState({
           sent: ''
         })
-      }, 2000);
+      }, 5000);
     } else {
       this.setState({
         sent: 'fail'
