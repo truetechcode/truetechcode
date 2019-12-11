@@ -9,27 +9,27 @@ function Footer() {
         <div className="col-md-12">
           <ul className="list-inline social-buttons">
           <li className="list-inline-item">
-              <Link target="_blank" to="//www.github.com/truetechcode/">
+              <Link target="_blank" rel="noopener" to="//www.github.com/truetechcode/">
                 <i className="fab fa-github"></i>
               </Link>
             </li>
             <li className="list-inline-item">
-              <Link target="_blank" to="//www.linkedin.com/in/terver-aosu/">
+              <Link target="_blank" rel="noopener" to="//www.linkedin.com/in/terver-aosu/">
                 <i className="fab fa-linkedin-in"></i>
               </Link>
             </li>
             <li className="list-inline-item">
-              <Link target="_blank" to="//www.twitter.com/truetech_code">
+              <Link target="_blank" rel="noopener" to="//www.twitter.com/truetech_code">
                 <i className="fab fa-twitter"></i>
               </Link>
             </li>
             <li className="list-inline-item">
-              <Link target="_blank" to="//www.dev.to/truetechcode">
+              <Link target="_blank" rel="noopener" to="//www.dev.to/truetechcode">
                 <i className="fab fa-dev"></i>
               </Link>
             </li>
             <li className="list-inline-item">
-              <Link target="_blank" to="//stackoverflow.com/story/truetechcode">
+              <Link target="_blank" rel="noopener" to="//stackoverflow.com/story/truetechcode">
                 <i class="fab fa-stack-overflow" aria-hidden={true}></i>
               </Link>
             </li>            
@@ -38,8 +38,8 @@ function Footer() {
         <div className="col-md-12 mt-4">
           <ul className="list-inline footer-links">
           <li className="list-inline-item">
-            <Link className="btn btn-secondary" target="_blank" to="//drive.google.com/open?id=12GM62vllNJmRTMIL7ozhbnxq9fK7d2Ab">
-              My Resume
+            <Link className="btn btn-secondary" target="_blank" rel="noopener" to="//drive.google.com/open?id=12GM62vllNJmRTMIL7ozhbnxq9fK7d2Ab">
+            Résumé
             </Link>
           </li>
           <li className="list-inline-item">
