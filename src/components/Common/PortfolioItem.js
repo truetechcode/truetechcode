@@ -14,7 +14,7 @@ class PortfolioItem extends Component {
           <img className="img-fluid" src={this.props.image} alt={this.props.title} />
         </Link>
         <div className="portfolio-caption">
-          <h4><Link target="_blank" rel="noopener" to={this.props.link}>{this.props.title}</Link></h4>
+          <h4><Link target="_blank" rel="noopener" to={this.props.github}>{this.props.title}</Link></h4>
           <p className="text-muted">{this.props.subtitle}</p>          
         </div>
       </div>
