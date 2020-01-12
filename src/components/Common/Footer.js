@@ -30,7 +30,7 @@ function Footer() {
             </li>
             <li className="list-inline-item">
               <Link target="_blank" rel="noopener" to="//stackoverflow.com/story/truetechcode">
-                <i class="fab fa-stack-overflow" aria-hidden={true}></i>
+                <i className="fab fa-stack-overflow" aria-hidden={true}></i>
               </Link>
             </li>            
           </ul>
@@ -38,7 +38,7 @@ function Footer() {
         <div className="col-md-12 mt-4">
           <ul className="list-inline footer-links">
           <li className="list-inline-item">
-            <Link className="btn btn-secondary" target="_blank" rel="noopener" to="//drive.google.com/open?id=12GM62vllNJmRTMIL7ozhbnxq9fK7d2Ab">
+            <Link className="btn btn-secondary" target="_blank" rel="noopener" to="//drive.google.com/open?id=1u3uuCV_PCJRFYS7M63hUHTB8T561W6xh">
             Résumé
             </Link>
           </li>
