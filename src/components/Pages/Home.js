@@ -7,8 +7,10 @@ import "../../css/Home.css";
 
 class Home extends Component {
   render() {
+    const h = window.screen.height * 0.63
     return (
       <Header
+        headerHeight={{height: `${h}px`}}
         title="Working Remotely."
         subtitle="Full Stack Web Developer."
         buttonText="Hire Me!"
