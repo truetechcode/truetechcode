@@ -6,14 +6,13 @@
 
 ## `Summary`
 
-> I am a Full Stack developer working with React and Ruby on Rails, I am a fast learner and adaptable, 
-I have worked with teams both physically and remotely and I am a good collaborator.
-I have written amazing code and use great tools to boost collaboration and productivity.
-I am ready to work and I will stop at nothing to push the growth of your organization.
+> I am a Full Stack developer working with React and Ruby on Rails, I am a life long learner, 
+I have collaborated with teams from diverse geographies and backgrounds on projects physically and remotely.
+I love making bites of codes work happily together.
 
 ## `Skills`
 
-> JavaScript (ES5/ES6), Ruby, HTML, CSS, Ruby on Rails, React, jQuery, Bootstrap, Node, SQL, PostgreSQL, MySQL, RSpec, Jest, Git, GitHub, Webpack, Heroku, ZEIT, Slack, Zoom.
+> JavaScript (ES5/ES6), Ruby, HTML, CSS, Ruby on Rails, React, React Native, jQuery, Bootstrap, Node, SQL, PostgreSQL, MySQL, RSpec, Jest, Git, GitHub, Webpack, CI/CD, Google Cloud (Firebase), Heroku, ZEIT, Slack, Zoom.
 
 ## `Experience`
 
