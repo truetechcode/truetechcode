@@ -12,17 +12,19 @@ I love making bites of codes work happily together.
 
 ## `Skills`
 
-> JavaScript (ES5/ES6), Ruby, HTML, CSS, Ruby on Rails, React, React Native, jQuery, Bootstrap, Node, SQL, PostgreSQL, MySQL, RSpec, Jest, Git, GitHub, Webpack, CI/CD, Google Cloud (Firebase), Heroku, ZEIT, Slack, Zoom.
+> JavaScript (ES5/ES6), Ruby, HTML, CSS, Ruby on Rails, ReactJs, React Native, FeatherJs, jQuery, Bootstrap, Node, SQL, PostgreSQL, MySQL, RSpec, Jest, Git, GitHub, Webpack, CI/CD, Google Cloud (Firebase), Heroku, ZEIT, Slack, Zoom.
 
 ## `Experience`
 
-> **JPMorgan Chase & Co.** ​Software Engineering Intern *2019*
-- Worked on three tasks to fix bugs on a Python Script and React app of
-the company’s web trading platform.
 
-> **Tivkpaa Modern Technologies Nig. Ltd** ​ Trainer, Web Developer and IT Technician. *2017 - 2019*
-- I build the company website and was sole responsible for conducting maintenance on company I.T equipment.
-- I conducted trainings for more than 10 trainees.
+> **Sperkwood.** ​Full Stack Developer *2020*
+- Building business solutions that scales, with ReactJs, Ruby on Rails, React Native, and FeatherJs.
+
+> **JPMorgan Chase & Co.** ​Software Engineering Intern *2019*
+- Fix a few bugs on the web trading platform powered by Python and ReactJs.
+
+> **Tivkpaa Modern Technologies Nig. Ltd** ​ Trainer, Web Developer and IT Technician. *2017*
+- Build and managed all IT infrastructure of the company.
 
 ## `Education`
 
