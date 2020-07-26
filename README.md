@@ -24,7 +24,7 @@ I love making bites of codes work happily together.
 - Fix a few bugs on the web trading platform powered by Python and ReactJs.
 
 > **Tivkpaa Modern Technologies Nig. Ltd** ​ Trainer, Web Developer and IT Technician. *2017*
-- Build and managed all IT infrastructure of the company.
+- Build and managed IT infrastructure of the company.
 
 ## `Education`
 
