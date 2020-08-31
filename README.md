@@ -10,10 +10,10 @@
     <img src="https://img.shields.io/twitter/follow/truetech_code?label=Twitter&logo=twitter&style=for-the-badge" />
   </a>
   <a href="https://www.linkedin.com/in/terver-aosu/">
-    <img src="https://img.shields.io/static/v1?label=<LABEL>&message=LinkedIn&color=green" />
+    <img src="https://img.shields.io/static/v1?label=LINKEDIN&message=LinkedIn&color=green" />
   </a>
   <a href="https://stackoverflow.com/story/truetechcode">
-    <img src="https://img.shields.io/static/v1?label=<LABEL>&message=Stackoverflow&color=green" />
+    <img src="https://img.shields.io/static/v1?label=STACKOVERFLOW&message=Stackoverflow&color=green" />
   </a>
 </p>
 
