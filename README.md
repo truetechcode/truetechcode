@@ -4,6 +4,21 @@
 
 >[Portfolio](https://my-website.terveraosu.now.sh/) | [LinkedIn](https://www.linkedin.com/in/terver-aosu/) | [Stackoverflow](https://stackoverflow.com/story/truetechcode) | [GitHub](https://github.com/truetechcode/) | [Twitter](https://twitter.com/truetech_code)
 
+<p align="center">
+  <a href="https://github.com/truetechcode/?tab=followers">
+    <img src="https://img.shields.io/github/followers/truetechcode?label=Followers&logo=GitHub&style=for-the-badge" alt="GitHub badge" />
+  </a>
+  <a href="http://twitter.com/truetech_code">
+    <img src="https://img.shields.io/twitter/follow/truetech_code?label=Twitter&logo=twitter&style=for-the-badge" />
+  </a>
+  <a href="https://discord.com/invite/jZQs6Wu">
+    <img src="https://img.shields.io/discord/699608417039286293?logo=discord&style=for-the-badge" />
+  </a>
+  <a href="http://youtube.com/eddiejaoude?sub_confirmation=1">
+    <img src="https://img.shields.io/youtube/views/2IzRSHT5Hw8?label=YouTube&logo=YouTube&style=for-the-badge" />
+  </a>
+</p>
+
 ## `Summary`
 
 > I am a Full Stack developer working with React and Ruby on Rails, I am a life long learner, 
