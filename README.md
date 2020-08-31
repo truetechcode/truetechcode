@@ -1,6 +1,6 @@
 # Terver Stephen Aosu
 
-## Full Stack Ruby on Rails/ React Developer
+## Full Stack Ruby / JavaScript Developer
 
 <p align="center">
   <a href="https://github.com/truetechcode/?tab=followers">
