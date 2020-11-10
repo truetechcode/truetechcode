@@ -4,13 +4,13 @@
 
 <p align="center">
   <a href="http://twitter.com/truetech_code">
-    <img src="https://img.shields.io/static/v1?label=Twitter&logo=twitter&color=blue" />
+    <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&color=blue" />
   </a>
   <a href="https://www.linkedin.com/in/terver-aosu/">
-    <img src="https://img.shields.io/static/v1?label=LinkedIn&color=blue" />
+    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&color=blue" />
   </a>
   <a href="https://stackoverflow.com/story/truetechcode">
-    <img src="https://img.shields.io/static/v1?label=Stackoverflow&color=orange" />
+    <img src="https://img.shields.io/static/v1?message=Stackoverflow&logo=stackoverflow&color=orange" />
   </a>
 </p>
 
