@@ -1,6 +1,6 @@
 # Terver Stephen Aosu
 
-## Full Stack Ruby / JavaScript Developer
+## Full Stack Developer
 
 <p align="center">
   <a href="http://twitter.com/truetech_code">
