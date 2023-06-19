@@ -1,12 +1,13 @@
-### <div align="center">I'm Terver, a full-stack ruby on rails developer 👨‍💻 working remotely since 2019 🚀</div>  
-  
+### <div align="center">I'm Terver, a full-stack developer 👨‍💻 working remotely since 2019.</div>
 
-- 🔭 I’m currently working on [AI News Headlines](https://github.com/truetechcode/headline)  
-  
+- <div align=""> With over 3 years of experience as a software developer, with expertise in full-stack web development using technologies such as Ruby on Rails, and MERN stack. 🚀</div>  
 
-- 🌱 I’m currently learning Prompt Engineering  
-  
-
+- 🔭 Experience as a freelance developer, building solutions for small businesses and providing professional advice on technology adoption.
+- 🔭 Web Development Trainer at CareerFoundry, helping students close skill gaps, evaluating student work, and guiding them in creating industry-ready portfolios.
+- 🔭 Organizing and speaking at #C2F, a blockchain focus conf in the heart of Nigeria.
+- 🌱 Mentored junior web developers at Microverse, providing technical support, code reviews, and motivation to maintain longevity in the program.
+- 🔭 Web Developer and IT Technician at Tivkpaa, building websites, making purchasing decisions for IT equipment, conducting training and onboarding of new hires.
+- 🌱 I’m currently learning AI and Prompt Engineering and applying it to solutions I am building.
 <br/>  
 
 
