@@ -1,6 +1,5 @@
 ### <div align="center">I'm Terver, a full-stack developer 👨‍💻 working remotely since 2019.</div>
 
-Experience:
 - 🚀 With 4+ years of experience as a software developer, specializing in full-stack web development using technologies such as Ruby on Rails, Ruby, and JavaScript.
 - 🎙️ Organizing and speaking at #C2F, a Tech focus conf. in the heart of Nigeria.
 - 📚 I’m currently learning AI and Prompt Engineering and applying it to solutions I am building.
