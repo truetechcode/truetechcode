@@ -1,13 +1,11 @@
 ### <div align="center">I'm Terver, a full-stack developer 👨‍💻 working remotely since 2019.</div>
 
-- <div align=""> With over 3 years of experience as a software developer, with expertise in full-stack web development using technologies such as Ruby on Rails, and MERN stack. 🚀</div>  
+Experience:
+- 🚀 With 4+ years of experience as a software developer, specializing in full-stack web development using technologies such as Ruby on Rails, Ruby, and JavaScript.
+- 🎙️ Organizing and speaking at #C2F, a Tech focus conf. in the heart of Nigeria.
+- 📚 I’m currently learning AI and Prompt Engineering and applying it to solutions I am building.
 
-- 🔭 Experience as a freelance developer, building solutions for small businesses and providing professional advice on technology adoption.
-- 🔭 Web Development Trainer at CareerFoundry, helping students close skill gaps, evaluating student work, and guiding them in creating industry-ready portfolios.
-- 🔭 Organizing and speaking at #C2F, a blockchain focus conf in the heart of Nigeria.
-- 🌱 Mentored junior web developers at Microverse, providing technical support, code reviews, and motivation to maintain longevity in the program.
-- 🔭 Web Developer and IT Technician at Tivkpaa, building websites, making purchasing decisions for IT equipment, conducting training and onboarding of new hires.
-- 🌱 I’m currently learning AI and Prompt Engineering and applying it to solutions I am building.
+With my experience in software development, strong technical skills, and a passion for mentoring, I am equipped to contribute to your team.
 <br/>  
 
 
